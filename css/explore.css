@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+}
+
+/*header begins*/
+header{
+    background-color:whitesmoke;
+    height: 4.8em;
+}
+
+
+.head-tag{
+    float: right;
+    margin-top: 28px;
+    margin-right: 1px;
+}
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+/* header ends */
+
+.card {
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    height: 23.5em;
+    padding: 3px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+

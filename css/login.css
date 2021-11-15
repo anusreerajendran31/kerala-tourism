@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-size: cover;
+}
+
+/*header begins*/
+header{
+    background-color:whitesmoke;
+    height: 4.8em;
+}
+
+.head-tag{
+    float: right;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+/* header ends */
+
+/* login form begins */
+.login-credentials{
+    float: right;
+    border: 2px solid whitesmoke;
+    background-color: beige;
+    height: 20em;
+    margin-top: 7%;
+    margin-right: 42%;
+    padding: 30px;
+}
+
+.login-credentials h2{
+    text-align: center;
+}
+
+#submit{
+    width: 100%;
+    color:white;
+    background-color: green;
+    border:1px solid green;
+}
+/* login form ends */
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}

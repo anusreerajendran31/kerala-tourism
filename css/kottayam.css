@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    padding-top: 50px;
+    padding-left: 25px;
+    border-color: 2px solid blueviolet;
+    text-align: center;
+}
+
+.container li{
+    margin-bottom: 8px;
+    text-align: center;
+    list-style: none;
+}
+
+.jar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    padding-top: 50px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.jar li{
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 65px;
+}
+
+.map{
+    float: right;
+    margin-top: 5px;
+    margin-right: 30%;
+}
